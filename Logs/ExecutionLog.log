@@ -1,0 +1,12 @@
+2016-08-05 12:41:31,834  INFO (TestNG:main.automation.report.CReporter:initTestCaseDescription:1760) - [chrome-46]START TEST ***** Create Organization with Sponsorships ****
+2016-08-05 12:41:32,125  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [chrome-46] STEP PASS **** Successfully Clicked On Search Btn*****
+2016-08-05 12:41:32,595  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [chrome-46] STEP PASS **** Successfully Typed On enter search*****
+2016-08-05 12:41:32,732  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [chrome-46] STEP PASS **** Successfully Clicked On Search Btn*****
+2016-08-05 12:41:42,812  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [chrome-46] STEP PASS **** Successfully Found Search Results Page Title*****
+2016-08-05 12:41:43,378  INFO (TestNG:main.automation.report.CReporter:successwithscreenshot:380) - [chrome-46]Verify Search Results PageSearch_Results_Page_Displayed_Successfully
+2016-08-05 12:42:03,328  INFO (TestNG:main.automation.report.CReporter:initTestCaseDescription:1760) - [firefox-33]START TEST ***** Create Organization with Sponsorships ****
+2016-08-05 12:42:03,638  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [firefox-33] STEP PASS **** Successfully Clicked On Search Btn*****
+2016-08-05 12:42:04,058  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [firefox-33] STEP PASS **** Successfully Typed On enter search*****
+2016-08-05 12:42:05,288  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [firefox-33] STEP PASS **** Successfully Clicked On Search Btn*****
+2016-08-05 12:42:15,340  INFO (TestNG:main.automation.report.CReporter:SuccessReport:1573) - [firefox-33] STEP PASS **** Successfully Found Search Results Page Title*****
+2016-08-05 12:42:16,110  INFO (TestNG:main.automation.report.CReporter:successwithscreenshot:380) - [firefox-33]Verify Search Results PageSearch_Results_Page_Displayed_Successfully

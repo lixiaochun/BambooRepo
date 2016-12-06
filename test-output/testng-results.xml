@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DBSFramework" duration-ms="195054" started-at="2016-12-06T16:54:33Z" finished-at="2016-12-06T16:57:48Z">
+    <groups>
+      <group name="regression">
+        <method signature="MyTestCase.MyTestCase1(java.lang.String)[pri:0, instance:test.dbs.scripts.MyTestCase@93abcc]" name="MyTestCase1" class="test.dbs.scripts.MyTestCase"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="MyTest - Firefox" duration-ms="195054" started-at="2016-12-06T16:54:33Z" finished-at="2016-12-06T16:57:48Z">
+      <class name="test.dbs.scripts.MyTestCase">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.dbs.scripts.MyTestCase@93abcc]" name="beforeClass" is-config="true" duration-ms="168358" depends-on-groups="initGroup" started-at="2016-12-06T22:24:33Z" finished-at="2016-12-06T22:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.dbs.scripts.MyTestCase@93abcc]" name="beforeMethod" is-config="true" duration-ms="149" started-at="2016-12-06T22:27:22Z" finished-at="2016-12-06T22:27:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.dbs.scripts.MyTestCase.MyTestCase1(java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MyTestCase1(java.lang.String)[pri:0, instance:test.dbs.scripts.MyTestCase@93abcc]" name="MyTestCase1" duration-ms="21728" started-at="2016-12-06T22:27:22Z" data-provider="getSearchTextValue" finished-at="2016-12-06T22:27:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[swarup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyTestCase1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.dbs.scripts.MyTestCase@93abcc]" name="afterMethod" is-config="true" duration-ms="27" started-at="2016-12-06T22:27:44Z" finished-at="2016-12-06T22:27:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="afterClass()[pri:0, instance:test.dbs.scripts.MyTestCase@93abcc]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-12-06T22:27:44Z" finished-at="2016-12-06T22:27:44Z">
+          <exception class="com.applitools.eyes.TestFailedException">
+            <message>
+              <![CDATA['Test Web Page' of 'Applitools'. See details at https://eyes.applitools.com/app/sessions/00000251921257390400/00000251921257390188?accountId=SWa3kuSRGkeKOVGekEHHZg~~]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.applitools.eyes.TestFailedException: 'Test Web Page' of 'Applitools'. See details at https://eyes.applitools.com/app/sessions/00000251921257390400/00000251921257390188?accountId=SWa3kuSRGkeKOVGekEHHZg~~
+	at com.applitools.eyes.EyesBase.close(EyesBase.java:600)
+	at com.applitools.eyes.Eyes.close(Eyes.java:17)
+	at com.applitools.eyes.EyesBase.close(EyesBase.java:540)
+	at com.applitools.eyes.Eyes.close(Eyes.java:17)
+	at main.automation.accelerators.TestEngineWeb.afterClass(TestEngineWeb.java:237)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.applitools.eyes.TestFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.dbs.scripts.MyTestCase -->
+    </test> <!-- MyTest - Firefox -->
+  </suite> <!-- DBSFramework -->
+</testng-results>
